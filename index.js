@@ -73,7 +73,6 @@ await client.connect(); // call
 
 
 app.listen(4220, () => console.log(`The server started in: ${4020} ✨✨`));
-console.timeEnd()
 
 app.use("/user", userRouter)
 
@@ -90,7 +89,6 @@ app.post("/mobiles", async (req, res) => {
 
 export { client };
 
-app.listen(4020, () => console.log(`The server started in: ${PORT} ✨✨`));
 // param in get method.
 
 // app.get("/movies/:id" ,async(req,res)=>{
