@@ -42,7 +42,7 @@ app.post("/mobiles", async (req, res) => {
 })
 
 
-app.listen(4220, () => console.log(`The server started in: ${4020} ✨✨`));
+app.listen(PORT, () => console.log(`The server started in: ${PORT} ✨✨`));
 export { client };
 
 
